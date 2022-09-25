@@ -3,11 +3,20 @@
     display: block;
     text-align: right;
 }
+.navbar {
+    width: 100%;
+    
+}
 .navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
 }
 .navbar li {
-    display: inline;
+    list-style: none;
+    display: inline-block;
+}
+.navbar button {
+    padding: 10px 50px;
 }
