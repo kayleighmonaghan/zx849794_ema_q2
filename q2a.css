@@ -1,3 +1,6 @@
+body {
+    margin: 0;
+}
 .container {
     margin: 0 80px;
 }
@@ -13,8 +16,8 @@
 .navbar ul {
     display: flex;
     flex-direction: row;
-    width: 100%;
     justify-content: space-between;
+    padding: 0 10%;
 }
 .navbar li {
     list-style: none;
@@ -39,7 +42,7 @@ h2 {
 .proposed-event,
 .upcoming-event {
     border: 1px solid darkblue;
-    padding: 5px;
+    padding: 5px 10px;
 }
 
 .edit-links {
@@ -50,3 +53,14 @@ h2 {
 table {
     width: 100%;
 }
+
+.events-list {
+    height: 300px;
+    overflow: scroll;
+ }
+
+ footer {
+    text-align: right;
+    background-color: lightblue;
+    padding: 10px;
+ }
