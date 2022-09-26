@@ -6,6 +6,25 @@ body {
     background-color: white;
     max-width: 1024px;
 }
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+h2 {
+    text-align: center;
+    background-color: lightblue;
+    padding: 10px;
+    border: 1px solid darkblue;
+}
+form {
+    padding-bottom: 20px;
+}
+footer {
+    text-align: right;
+    background-color: lightblue;
+    padding: 10px;
+}
 .container {
     margin: 0 80px;
 
@@ -33,41 +52,3 @@ body {
 .navbar button {
     padding: 10px 50px;
 }
-h1 {
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 60px;
-}
-h2 {
-    text-align: center;
-    background-color: lightblue;
-    padding: 10px;
-    border: 1px solid darkblue;
-}
-
-.proposed-event,
-.upcoming-event {
-    border: 1px solid darkblue;
-    padding: 5px 10px;
-}
-
-.edit-links {
-    display: flex;
-    justify-content: flex-end;
-    gap: 10px;
-}
-table {
-    width: 100%;
-}
-.events-list {
-    height: 400px;
-    overflow: scroll;
- }
- form {
-     padding-bottom: 20px;
- }
- footer {
-    text-align: right;
-    background-color: lightblue;
-    padding: 10px;
- }
