@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add walk event | OU Walking Club</title>
+    <link rel="stylesheet" href="q2a.css" />
+</head>
+<body>
+    <a href="" class="log-out">Log out</a>
+    <div class="container">
+        <div class="navbar">
+            <ul>
+                <li><button>Events</button></li>
+                <li><button>Members</button></li>
+                <li><button>News</button></li>
+                <li><button>Announcements</button></li>
+            </ul>
+        </div>
+        <h1>Walking Club</h1>
+        <h2>Add walk event</h2>
+        <main>
+            <form action="http://students.open.ac.uk/mct/tt284/reflect/reflect.php">
+                <label for="eventType">Type of event:</label><br>
+                <select id="eventType" name="eventType">
+                    <option value="walkEvent">Walk event</option>
+                    <option value="otherEvent">Other event</option>
+                </select><br />
+
+                <label for="walkName">Name of walk:</label><br />
+                <input type="text" id="walkName" name="walkName" value=""><br />
+
+                <label for="date">Date:</label><br />
+                <input type="date" id="date" name="date" value=""><br />
+
+                <label for="startTime">Start time:</label><br />
+                <input type="time" id="startTime" name="startTime" value=""><br />
+
+                <label for="endTime">End time:</label><br />
+                <input type="time" id="endTime" name="endTime" value=""><br />
+
+                <label for="meetingPoint">Meeting point:</label><br />
+                <input type="text" id="meetingPoint" name="meetingPoint" value=""><br />
+
+                <label for="distance">Distance in Kilometres:</label><br />
+                <input type="number" id="distance" name="distance" value=""><br />
+
+                <label for="leaderName">Name of leader:</label><br />
+                <input type="text" id="leaderName" name="leaderName" value=""><br  />
+
+                <label for="comments">Comments:</label><br />
+                <input type="text" id="comments" name="comments" value=""><br />
+
+                <input type="hidden" id="sessionID" name="sessionID" value="abcd1234-ee56-ff78-9090"><br />
+
+                <input type="submit" value="Submit">
+            </form>
+        </main>
+    </div>
+    <footer>
+        <p>Created by <a href="https://github.com/kayleighmonaghan">Kayleigh Monaghan</a></p>
+    </footer>
+</body>
+</html>
