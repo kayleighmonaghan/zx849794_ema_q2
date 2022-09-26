@@ -39,11 +39,11 @@ h2 {
 .proposed-event,
 .upcoming-event {
     border: 1px solid darkblue;
+    padding: 5px;
 }
 
-.edit-link-upcoming,
-.delete-link-upcoming,
-.approve-link-proposed,
-.reject-link-proposed {
-    text-align: right;
+.edit-links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
 }
