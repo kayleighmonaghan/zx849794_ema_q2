@@ -63,6 +63,9 @@ table {
     height: 400px;
     overflow: scroll;
  }
+ form {
+     padding-bottom: 20px;
+ }
  footer {
     text-align: right;
     background-color: lightblue;
