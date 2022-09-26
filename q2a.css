@@ -41,7 +41,9 @@ h2 {
     border: 1px solid darkblue;
 }
 
-a .proposed-event,
-a .upcoming-event {
+.edit-link-upcoming,
+.delete-link-upcoming,
+.approve-link-proposed,
+.reject-link-proposed {
     text-align: right;
 }
